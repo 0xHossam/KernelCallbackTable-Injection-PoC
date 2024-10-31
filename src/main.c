@@ -1,3 +1,10 @@
+ /* References:
+   * https://cocomelonc.github.io/tutorial/2022/01/24/malware-injection-15.html
+   * https://captmeelo.com/redteam/maldev/2022/04/21/kernelcallbacktable-injection.html
+   * https://arorarachit.com/blog/windows-process-injection-via-kernelcallbacktable
+   * https://attack.mitre.org/techniques/T1574/013/
+   * https://github.com/capt-meelo/KernelCallbackTable-Injection/blob/master/KCT.cpp
+*/
 #include <stdio.h>
 #include <windows.h>
 #include "struct.h"
